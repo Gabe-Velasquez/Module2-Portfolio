@@ -1,5 +1,4 @@
 import { Outlet } from "react-router-dom";
-import './App.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function App() {
