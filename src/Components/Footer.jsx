@@ -1,4 +1,7 @@
-export default Footer(){
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+export default function Footer() {
     return(
         <footer>
         <ul>
@@ -22,5 +25,5 @@ export default Footer(){
         </ul>
         <p>&copy; 2023</p>
         </footer>
-    )
+    );
 }
