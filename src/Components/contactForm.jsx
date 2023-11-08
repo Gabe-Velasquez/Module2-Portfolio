@@ -1,12 +1,12 @@
-import { useForm, ValidationError }from "@formspree/react"
+import { useForm, ValidationError } from '@formspree/react'
 
-function contactForm(){
-    const [state, handleSubmit] = useForm("mdoyovzj");
+function ContactForm() {
+    const [state, handleSubmit] = useForm('xnqkrlge')
     if (state.succeeded) {
         return <p>Thanks for your submission!</p>;
     }
     return (
-        <form onSubmit={handleSubmit}>
+        <form className='form-card' onSubmit={handleSubmit}>
             <input 
                 type="text" 
                 className="form-email"
@@ -24,11 +24,11 @@ function contactForm(){
                 id="message"
                 name="message"/>
             <ValidationError prefix="Message" field="message" errors={state.errors}/>
-            <button className="button" type="submit" disabled={state.submitting}>
+            <button className="form-button" type="submit" disabled={state.submitting}>
                 Submit
             </button>
         </form>
     )
 }
 
-export default contactForm;
+export default ContactForm;

@@ -1,9 +1,10 @@
-import contactForm from "../Components/contactForm";
+import ContactForm from "../Components/contactForm";
+
 export default function Contact(){
     return(
-        <div>
+        <div className="contact-main">
             <h2>Contact Me</h2>
-            <contactForm />
+            <ContactForm />
         </div>
-    )
+    );
 }
