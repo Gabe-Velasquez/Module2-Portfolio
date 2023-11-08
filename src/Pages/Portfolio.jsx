@@ -3,9 +3,9 @@ import projectList from "../utils/projects";
 
 export default function Portfolio(){
     return(
-        <div>
+        <div className="portfolio-main">
             <h2>Portfolio</h2>
-            <div>
+            <div className="portfolio-card">
                 {projectList.map((project)=>(
                     <Project {...project} key={project.title}/>
                 ))}

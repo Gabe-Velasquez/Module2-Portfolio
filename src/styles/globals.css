@@ -57,3 +57,36 @@ ul{
     margin-top: 2%;
     margin-bottom: 4%;
 }
+
+.portfolio-main h2{
+    text-align: center;
+}
+.portfolio-card{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.project{
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    transition: all .3s ease;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 20px;
+    display:block;
+    text-align: center;
+}
+
+
+
+
+.portfolio-card img{
+    max-width: 70%;
+}
+
+.code-links{
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-around;
+}

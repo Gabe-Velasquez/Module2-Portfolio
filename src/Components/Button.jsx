@@ -1,4 +1,4 @@
-const Button = ({children, className="", outline, link, self})=>{
+const Button = ({children, className="Button", outline, link, self})=>{
     return(
         <a
             href={link}
