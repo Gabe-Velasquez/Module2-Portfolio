@@ -1,6 +1,6 @@
 export default function About(){
     return (
-        <div>
+        <div className="About-Card">
             <h2>About Me</h2>
             <img src=''/>
             <p>Hello, I'm Gabe, a passionate web developer who recently relocated to the vibrant tech hub of Seattle, originally hailing from the scenic landscapes of Colorado. I thrive on the boundless opportunities that technology offers to exercise creativity while solving complex problems. Collaborating with like-minded individuals to overcome challenges is a driving force behind my work.</p>

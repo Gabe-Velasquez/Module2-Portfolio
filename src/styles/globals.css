@@ -32,6 +32,25 @@ ul{
     list-style: none;
 }
 
+.About-Card{
+    width: 98%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 20px;
+    margin: 2% 1%;
+    padding: 2%;
+    border-radius: 7px;
+    }
+
+.About-Card h2{
+    font-size: 2rem;
+    text-align: center;
+}
+.About-Card p{
+    line-height: 1.5em;
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+
 .form-card{
     display: flex;
     justify-content: center;
@@ -78,15 +97,17 @@ ul{
     text-align: center;
 }
 
-
-
-
 .portfolio-card img{
     max-width: 70%;
 }
 
 .code-links{
     font-size: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul li{
     display: flex;
     justify-content: space-around;
 }
