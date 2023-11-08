@@ -1,10 +1,15 @@
-//TODO: Create helper for projects
+import Project from "../Components/Project";
+import projectList from "../utils/projects";
 
 export default function Portfolio(){
     return(
         <div>
             <h2>Portfolio</h2>
-            {/* Project map will go here  */}
+            <div>
+                {projectList.map((project)=>(
+                    <Project {...project} key={project.title}/>
+                ))}
+            </div>
         </div>
     )
 }
