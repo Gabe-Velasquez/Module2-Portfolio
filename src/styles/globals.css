@@ -22,6 +22,10 @@ html, body{
 .header-info ul{
     display: flex;
 }
+.nav-link-active{
+    border: solid 5px var(--cardbg);
+}
+
 
 li a{
     text-decoration: none;

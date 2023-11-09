@@ -39,7 +39,7 @@ const projects=[
         body: 'A password generator I made in my coding bootcamp when we were first learning about javascript. Had starter code to help but had to write the logic of the application. Something I can come back to and see where I first started my programming journey.',
         site: 'https://gabe-velasquez.github.io/Password-Generator/',
         source: 'https://github.com/Gabe-Velasquez/Password-Generator',
-        screenshot: '../src/assets/images/password-gen.png'
+        screenshot: '../../src/assets/images/password-gen.png'
     }
 ]
 
