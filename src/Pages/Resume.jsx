@@ -7,8 +7,8 @@ export default function Resume(){
                     <span>
                         Download Resume{' '}
                         <a 
-                            href="../src/assets/GabeVelasquez_Resume.pdf"
-                            download="{GabeVelasquez_Resume.pdf}">
+                            href="../GabeVelasquez_Resume.pdf"
+                            download={"GabeVelasquez_Resume.pdf"}>
                                 here!
                         </a>
                     </span>
