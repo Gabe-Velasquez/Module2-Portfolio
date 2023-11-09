@@ -1,6 +1,8 @@
 html, body{
     scroll-behavior: smooth;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #000;
+    color:aquamarine
 }
 
 .header-info{
@@ -16,7 +18,8 @@ html, body{
 li a{
     text-decoration: none;
     padding: 14px 30px;
-    color: #000;
+    margin: 5px 2px;
+    border-radius: 8px;
     transition: all .3s ease-in-out;
 }
 li a:hover {
@@ -139,6 +142,19 @@ ul{
     justify-content: space-around;
 }
 
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+.social-links{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: auto;
+}
 footer ul li{
     display: flex;
     justify-content: space-around;

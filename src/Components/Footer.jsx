@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 export default function Footer() {
     return(
         <footer>
-        <ul>
+        <ul className='social-links'>
             <li>
                 <a href="https://github.com/Gabe-Velasquez">
                 <FontAwesomeIcon icon="fa-brands fa-github" />
