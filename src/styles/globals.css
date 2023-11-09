@@ -1,8 +1,15 @@
+:root{
+    --cardbg: #00cdcd;
+    --black: #000000;
+    --green: #00cd00;
+    --font: #fff;
+}
+
 html, body{
     scroll-behavior: smooth;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #000;
-    color:aquamarine
+    background-color: var(--black);
+    color: var(--font);
 }
 
 .header-info{
@@ -24,8 +31,14 @@ li a{
     transition: all .3s ease-in-out;
 }
 li a:hover {
-    background-color:#f2f2f2;
+    background-color: var(--green);
     border-radius:5px;
+    box-shadow: 0px 6px 10px rgba(0, 205, 0, 0.7);
+    transform: translateY(-7px);
+}
+
+#logo img{
+    width: 90%;
 }
 
 .header-wrapper{
@@ -37,16 +50,17 @@ ul{
 }
 
 .About-Card{
-    width: 98%;
+
     height: auto;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 20px;
-    margin: 2% 1%;
+    margin: 2% 6%;
     padding: 2%;
     border-radius: 7px;
+    background-color: var(--cardbg);
     }
 
 .About-Card h2{
-    font-size: 2rem;
+    font-size: 2.6rem;
     text-align: center;
 }
 .About-Card p{
@@ -60,14 +74,21 @@ ul{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
-    
-    background-color: #f7f9fa;
+    background-color: var(--cardbg);
+    border-radius: 10px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .contact-main{
     text-align: center;
     margin-bottom: 35px;
+    font-size: 1.4rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 20px;
+    margin: 2% 1%;
+    padding: 2%;
 }
 
 .form-email{
@@ -81,15 +102,21 @@ ul{
     margin-bottom: 4%;
 }
 
+.portfolio-main{
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 1.4rem;
+}
 .portfolio-main h2{
     text-align: center;
 }
 .portfolio-card{
     position: relative;
     overflow: hidden;
-    cursor: pointer;
     padding: 20px;
+    transition: all .3s ease-in-out;
 }
+
 
 .project{
     box-shadow: 0 6px 12px rgba(0,0,0,.175);
@@ -99,6 +126,7 @@ ul{
     padding: 20px;
     display:block;
     text-align: center;
+    background-color: var(--cardbg);
 }
 
 .portfolio-card img{
@@ -112,11 +140,13 @@ ul{
     line-height: 1.5;
     letter-spacing: -.003em;
     font-weight: bold;
-    color: #fff;
-    background-color:darkcyan;
+    color: var(--white);
+    background-color: var(--cardbg);
     padding: 1.5rem;
     margin: 5%;
+    border-radius: 10px;
 }
+
 .res-top{
     display: flex;
     justify-content: space-around;
