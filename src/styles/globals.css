@@ -101,6 +101,38 @@ ul{
     max-width: 70%;
 }
 
+.res-main{
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    line-height: 1.5;
+    letter-spacing: -.003em;
+    font-weight: bold;
+    color: #fff;
+    background-color:darkcyan;
+    padding: 1rem;
+    margin: auto;
+}
+.res-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+    padding-bottom: 4%;
+}
+.res-name{
+    font-size: 1.5em;
+}
+
+.skills{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display:flex;
+    justify-content: space-around;
+}
+
 .code-links{
     font-size: 1rem;
     display: flex;
