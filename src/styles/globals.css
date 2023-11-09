@@ -37,10 +37,6 @@ li a:hover {
     transform: translateY(-7px);
 }
 
-#logo img{
-    width: 90%;
-}
-
 .header-wrapper{
     margin: 4%;
 }
@@ -52,21 +48,32 @@ ul{
 .About-Card{
 
     height: auto;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 20px;
     margin: 2% 6%;
     padding: 2%;
-    border-radius: 7px;
+    border-radius: 10px;
     background-color: var(--cardbg);
     }
+
+.about-hero{
+    display: flex;
+}
 
 .About-Card h2{
     font-size: 2.6rem;
     text-align: center;
 }
 .About-Card p{
-    line-height: 1.5em;
+    line-height: 2em;
     font-weight: lighter;
     font-size: 1.2rem;
+}
+
+.About-Card img{
+    display: block;
+    margin: auto;
+    max-width: 50%;
+    max-height: ;
+    border-radius: 50%;
 }
 
 .form-card{
@@ -89,6 +96,16 @@ ul{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 20px;
     margin: 2% 1%;
     padding: 2%;
+}
+
+.contact-thanks{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 7%;
+    font-size: 1.8rem;
+    text-align: center;
 }
 
 .form-email{
@@ -137,8 +154,7 @@ ul{
     display: flex;
     flex-direction: column;
     font-size: 1em;
-    line-height: 1.5;
-    letter-spacing: -.003em;
+    line-height: 2;
     font-weight: bold;
     color: var(--white);
     background-color: var(--cardbg);
@@ -176,7 +192,7 @@ ul{
 footer{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     width: auto;
 }
