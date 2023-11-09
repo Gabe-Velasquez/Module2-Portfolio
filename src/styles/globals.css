@@ -9,6 +9,7 @@ html, body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 1.4rem;
 }
 
 .header-info ul{
@@ -28,7 +29,7 @@ li a:hover {
 }
 
 .header-wrapper{
-    margin: 1%;
+    margin: 4%;
 }
 
 ul{
@@ -113,8 +114,8 @@ ul{
     font-weight: bold;
     color: #fff;
     background-color:darkcyan;
-    padding: 1rem;
-    margin: auto;
+    padding: 1.5rem;
+    margin: 5%;
 }
 .res-top{
     display: flex;
