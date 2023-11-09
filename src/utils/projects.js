@@ -20,6 +20,27 @@ const projects=[
         source:'https://github.com/Gabe-Velasquez/FaceRecognitionApp',
         screenshot: '../src/assets/images/FaceDetect.jpg'
     },
+    {
+        title: 'Whose Hotter',
+        body: 'The first group project I worked in my coding bootcamp where we built an application that compared two contries in regards to their weather, main language spoken and currency to help with those individuals that want to travel on short notice.',
+        site: 'https://gabe-velasquez.github.io/Whose_Hotter/',
+        source: 'https://github.com/Gabe-Velasquez/Whose_Hotter',
+        screenshot: '../src/assets/images/WhoseHotter.png'
+    },
+    {
+        title: 'Seattle Quiz',
+        body: 'This is a quiz I made in class when I was first taught JavaScript. It taught me how to access and use local storage for an application and how to have a better idea of conditional programming in general. ',
+        site: 'https://gabe-velasquez.github.io/Quiz-Project/',
+        source: 'https://github.com/Gabe-Velasquez/Quiz-Project',
+        screenshot: '../src/assets/images/Quiz.png'
+    },
+    {
+        title: 'Password Generator',
+        body: 'A password generator I made in my coding bootcamp when we were first learning about javascript. Had starter code to help but had to write the logic of the application. Something I can come back to and see where I first started my programming journey.',
+        site: 'https://gabe-velasquez.github.io/Password-Generator/',
+        source: 'https://github.com/Gabe-Velasquez/Password-Generator',
+        screenshot: '../src/assets/images/password-gen.png'
+    }
 ]
 
 export default projects;
