@@ -4,14 +4,14 @@ const projects=[
         body:"This project was built so I could get familiar with calling APIs in an application and seemlessly build with a user in mind.",
         site:'https://gabe-velasquez.github.io/Infinite-Photo-Reel-Project/',
         source:'https://github.com/Gabe-Velasquez/Infinite-Photo-Reel-Project',
-        screenshot: '/src/assets/images/photoReel.png'
+        screenshot: '../images/photoReel.png'
     },
     {
         title:'Starby Cup Corner',
         body:"The purpose of this web application is to allow users to create an account, search for Starbucks™ cups that other user's are selling and also allow users to post their own cups. We used a variety of technology from HTML-CSS-JS to Express and Handlebars.",
         site:'https://starbycupcorner-e77b9a9ffe86.herokuapp.com/',
         source:'https://github.com/shinyuta/Project-2-UofMN',
-        screenshot: '../src/assets/images/SCC.png'
+        screenshot: '../images/SCC.png'
     },
     {
         title:'Face Detection Application',
