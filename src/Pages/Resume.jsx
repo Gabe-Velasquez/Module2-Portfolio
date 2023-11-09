@@ -17,7 +17,7 @@ export default function Resume(){
                 <div>
                     <h3>Certifications</h3>
                     <span>
-                        <a href="../certificate-of-completion-for-complete-web-developer-in-2020-zero-to-mastery.pdf" target="_blank">Zero to Mastery Web Developer</a>
+                        <a href="../certificate-of-completion-for-complete-web-developer-in-2020-zero-to-mastery.pdf" download={"certificate-of-completion-for-complete-web-developer-in-2020-zero-to-mastery.pdf"}>Zero to Mastery Web Developer</a>
                     </span>
                 </div>
             </div>
