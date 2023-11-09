@@ -9,7 +9,7 @@ function ContactForm() {
         <form className='form-card' onSubmit={handleSubmit}>
             <input 
                 type="text" 
-                className="form-email"
+                className="form-name"
                 placeholder="Your name"/>
             <input 
                 type="email" 
@@ -24,7 +24,7 @@ function ContactForm() {
                 id="message"
                 name="message"/>
             <ValidationError prefix="Message" field="message" errors={state.errors}/>
-            <button className="form-button" type="submit" disabled={state.submitting}>
+            <button className="button" type="submit" disabled={state.submitting}>
                 Submit
             </button>
         </form>
