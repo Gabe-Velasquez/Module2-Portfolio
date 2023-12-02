@@ -7,6 +7,13 @@ const projects=[
         screenshot: '../images/photoReel.png'
     },
     {
+        title:'What the Fork?',
+        body:'This was the final project for my coding bootcamp at University of Minnesota. I was in a group with three other developers where we built a fullstack MERN application focused on cooking and engage our users to cook at home more. We hosted our site on render and is live at the link.',
+        site:'https://what-the-fork.onrender.com/',
+        source:'https://github.com/Achurale/What-The-Fork',
+        screenshot: '../images/WTFork.png'
+    },
+    {
         title:'Starby Cup Corner',
         body:"The purpose of this web application is to allow users to create an account, search for Starbucks™ cups that other user's are selling and also allow users to post their own cups. We used a variety of technology from HTML-CSS-JS to Express and Handlebars.",
         site:'https://starbycupcorner-e77b9a9ffe86.herokuapp.com/',
